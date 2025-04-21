@@ -6,6 +6,6 @@ public class ThreadRunnable {
         Thread t = new Thread();
         t.start();
         System.out.println(t.getState());
-        System.out.println("hello");
+        System.out.println("here");
     }
 }
